@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_radius">0dp</dimen>
+    <dimen name="button_border">1dp</dimen>
+    <dimen name="button_width">0dp</dimen>
+    <dimen name="navbar_height">64dp</dimen>
+</resources>

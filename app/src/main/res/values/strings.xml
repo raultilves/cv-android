@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My CV</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="cv_button">CV</string>
+    <string name="imagen_button">Imagen</string>
+    <string name="contacto_button">Contacto</string>
+    <string name="linkedin_button">Linkedin</string>
+</resources>
