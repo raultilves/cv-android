@@ -13,6 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
     <style name="botones">
         <item name="android:layout_width">@dimen/button_width</item>
         <item name="android:layout_height">match_parent</item>
@@ -20,5 +21,41 @@
         <item name="cornerRadius">@dimen/button_radius</item>
         <item name="strokeColor">@color/white</item>
         <item name="strokeWidth">@dimen/button_border</item>
+    </style>
+
+    <style name="columna_cv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">@dimen/columna_cv_margin</item>
+        <item name="android:layout_marginStart">@dimen/columna_cv_margin</item>
+        <item name="android:textSize">@dimen/tabla_cv_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dato_cv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/tabla_cv_textSize</item>
+    </style>
+
+    <style name="tabla_cv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/titulo_margin</item>
+    </style>
+
+    <style name="titulo_datos_personales">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/titulo_tabla_cv</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="titulo_experiencia_laboral">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/titulo_tabla_cv</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/titulo_margin</item>
     </style>
 </resources>

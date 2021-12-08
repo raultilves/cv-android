@@ -5,4 +5,16 @@
     <string name="imagen_button">Imagen</string>
     <string name="contacto_button">Contacto</string>
     <string name="linkedin_button">Linkedin</string>
+
+    <string name="titulo_datos_personales">Datos personales</string>
+
+    <string name="columna_nombre">Nombre completo:</string>
+    <string name="columna_fecha">Fecha de nacimiento:</string>
+    <string name="columna_genero">Género</string>
+    <string name="columna_nacionalidad">Nacionalidad</string>
+
+    <string name="dato_nombre">Raúl Santana Tilves</string>
+    <string name="dato_fecha">07/10/2000</string>
+    <string name="dato_genero">Masculino</string>
+    <string name="dato_nacionalidad">Española</string>
 </resources>

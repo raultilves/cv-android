@@ -4,4 +4,9 @@
     <dimen name="button_border">1dp</dimen>
     <dimen name="button_width">0dp</dimen>
     <dimen name="navbar_height">64dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="columna_cv_margin">10dp</dimen>
+    <dimen name="tabla_cv_textSize">18dp</dimen>
+    <dimen name="titulo_tabla_cv">24dp</dimen>
+    <dimen name="titulo_margin">10dp</dimen>
 </resources>
