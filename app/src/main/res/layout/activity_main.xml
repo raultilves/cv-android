@@ -137,10 +137,12 @@
         app:layout_constraintTop_toBottomOf="@+id/experienciaLaboral" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/formacionTitulo">
 
@@ -159,5 +161,24 @@
             style="@style/dato_cv"
             android:text="@string/formacion3" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/iniciarServicioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iniciar_servicio"
+        app:layout_constraintBottom_toTopOf="@+id/detenerServicioButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+    <Button
+        android:id="@+id/detenerServicioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detener_servicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iniciarServicioButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

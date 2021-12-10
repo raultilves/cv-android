@@ -15,9 +15,9 @@
 
         <Button
             android:id="@+id/cv_button"
+            android:text="@string/cv_button"
 
             style="@style/botones"
-            android:text="@string/cv_button"
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imagen_button"
@@ -27,9 +27,9 @@
 
         <Button
             android:id="@+id/imagen_button"
+            android:text="@string/imagen_button"
 
             style="@style/botones"
-            android:text="@string/imagen_button"
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/contacto_button"
@@ -39,9 +39,9 @@
 
         <Button
             android:id="@+id/contacto_button"
+            android:text="@string/contacto_button"
 
             style="@style/botones"
-            android:text="@string/contacto_button"
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/linkedin_button"
@@ -51,9 +51,9 @@
 
         <Button
             android:id="@+id/linkedin_button"
+            android:text="@string/linkedin_button"
 
             style="@style/botones"
-            android:text="@string/linkedin_button"
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

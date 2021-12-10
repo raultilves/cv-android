@@ -28,4 +28,16 @@
     <string name="formacion1">- Técnico en Sistemas Microinformáticos y Redes</string>
     <string name="formacion2">- Técnico Superior en Desarrollo de Apliaciones Web</string>
     <string name="formacion3">- Técnico Superior en Desarrollo de Apliaciones Multiplataforma</string>
+
+    <string name="descripcion_imagen">Foto CV</string>
+    <string name="telefono">Telefono: 636977123</string>
+    <string name="email">Email: raulsantanatilves710@gmail.com</string>
+    <string name="instagram">Instagram: @raultilves</string>
+    <string name="twitter">Twitter: @SulieTheShy</string>
+    <string name="facebook">Facebook: Raúl Santana Tilves</string>
+    <string name="alternar_qr_link">Alternar QR/Link</string>
+
+    <string name="enlace"><a href="https://www.linkedin.com/in/ra%C3%BAl-santana-tilves-8709761b8">Mi Linkedin</a></string>
+    <string name="iniciar_servicio">Iniciar servicio</string>
+    <string name="detener_servicio">Detener servicio</string>
 </resources>

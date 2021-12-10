@@ -60,4 +60,18 @@
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginTop">@dimen/titulo_margin</item>
     </style>
+
+    <style name="dato_contacto">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/text_margin</item>
+        <item name="android:textSize">@dimen/tabla_cv_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="enlace">
+        <item name="android:textSize">@dimen/titulo_tabla_cv</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

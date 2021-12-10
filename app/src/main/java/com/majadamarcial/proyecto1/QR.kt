@@ -1,12 +1,10 @@
 package com.majadamarcial.proyecto1
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.majadamarcial.proyecto1.databinding.FragmentNavBarBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -15,10 +13,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [NavBar.newInstance] factory method to
+ * Use the [QR.newInstance] factory method to
  * create an instance of this fragment.
  */
-class NavBar : Fragment() {
+class QR : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -31,38 +29,12 @@ class NavBar : Fragment() {
         }
     }
 
-    private var _binding: FragmentNavBarBinding? = null
-    private val binding get() = _binding!!
-
     override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
+        inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
-        _binding = FragmentNavBarBinding.inflate(inflater, container, false)
-        val view = binding.root
-
-        binding.cvButton.setOnClickListener {
-            val intent = Intent(activity, MainActivity::class.java)
-            startActivity(intent)
-        }
-
-        binding.imagenButton.setOnClickListener {
-            val intent = Intent(activity, Imagen::class.java)
-            startActivity(intent)
-        }
-
-        binding.contactoButton.setOnClickListener {
-            val intent = Intent(activity, Contacto::class.java)
-            startActivity(intent)
-        }
-
-        binding.linkedinButton.setOnClickListener {
-            val intent = Intent(activity, Linkedin::class.java)
-            startActivity(intent)
-        }
-
-        return view
+    ): View? {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_q_r, container, false)
     }
 
     companion object {
@@ -72,12 +44,12 @@ class NavBar : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment NavBar.
+         * @return A new instance of fragment QR.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            NavBar().apply {
+            QR().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)
